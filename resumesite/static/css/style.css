@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e9f8f1; /* soft pastel green */
+    padding: 0 20px;
+    color: #2d2d2d;
+}
+
+header {
+    background: #a8d5ba; /* muted pastel green */
+    color: #1d1d1d;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #2f4f4f;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+}
+
+.btn {
+    background-color: #7ec8a5; /* pastel green button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #65b891; /* darker pastel for hover */
+}
+
+.btn-paypal {
+    background-color: #ffe87c; /* soft yellow */
+    color: #222;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cde6d0;
+    border-radius: 8px;
+    background-color: #f7fcf9;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}

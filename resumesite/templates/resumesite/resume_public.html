@@ -1,0 +1,13 @@
+{% extends "resumesite/base.html" %}
+{% load static %}
+
+{% block content %}
+<h2>{{ resume.full_name }}'s Resume</h2>
+<p><strong>Email:</strong> {{ resume.email }}</p>
+<p><strong>Phone:</strong> {{ resume.phone }}</p>
+<p><strong>Summary:</strong><br>{{ resume.summary }}</p>
+<p><strong>Education:</strong><br>{{ resume.education }}</p>
+<p><strong>Experience:</strong><br>{{ resume.experience }}</p>
+<p><strong>Skills:</strong><br>{{ resume.skills }}</p>
+<a href="{% url 'export_pdf' resume.pk %}" class="btn">Download PDF</a>
+{% endblock %}

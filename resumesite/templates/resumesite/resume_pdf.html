@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial; }
+        h1 { color: #333; }
+        p { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>{{ resume.full_name }}</h1>
+    <p>Email: {{ resume.email }}</p>
+    <p>Phone: {{ resume.phone }}</p>
+    <p><strong>Summary:</strong><br>{{ resume.summary }}</p>
+    <p><strong>Education:</strong><br>{{ resume.education }}</p>
+    <p><strong>Experience:</strong><br>{{ resume.experience }}</p>
+    <p><strong>Skills:</strong><br>{{ resume.skills }}</p>
+</body>
+</html>
